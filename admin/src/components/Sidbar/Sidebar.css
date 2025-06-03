@@ -1,0 +1,10 @@
+.sidBar {
+    background-color: #ddd;
+    height: 100vh;
+    
+}
+.title {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #e3e3e3;
+}

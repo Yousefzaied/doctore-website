@@ -1,0 +1,24 @@
+
+.collapse a {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.collapse a.active {
+    padding-inline: 5px;
+    border-radius: 15px;
+}
+.collapse a::before {
+  position: absolute;
+  content: '';
+  width: 0;
+  height: 1px;
+  background-color: #5d6dff;
+  bottom: 0;
+  right: -2px;
+  transition: width 0.3s ease;
+}
+
+.collapse a:hover::before {
+  width: 50%;
+}

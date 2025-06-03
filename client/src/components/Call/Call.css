@@ -1,0 +1,8 @@
+.call-section {
+    background-color: #f6f9fc;
+}
+.card-section {
+    background-color: white;
+    box-shadow:  0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}

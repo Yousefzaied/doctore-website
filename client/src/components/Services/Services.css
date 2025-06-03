@@ -1,0 +1,11 @@
+.service {
+    background-color: #f6f9fc;
+}
+.service .service-card {
+   background-color: #fff;
+   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+   width: 350px;
+} 
+.service .service-card svg {
+    font-size: 2rem;
+}
